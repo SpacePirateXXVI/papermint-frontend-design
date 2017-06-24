@@ -1,0 +1,148 @@
+body{    
+    background-color: #f7faff; 
+    width: 100%;
+    height: 26%;
+    font-family: "Lato";
+    color: #00112d;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+.jumbotron {
+    background-image: url(https://source.unsplash.com/vmrCxMRdq58);
+    background-size: cover;
+    margin-bottom: 0em;
+}
+
+.content{
+    color: #eff4fc;
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    color: #eff4fc;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.btn-default {
+    color: #00112d;
+    background-color: #eff4fc;
+    border-color: #cbd0d8;
+}
+
+.label-counter {
+  color: #999;
+  font-size: 13px;
+  padding-left: 10px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/*.width{
+    width: 20%;
+    margin-right: 0;
+}
+ */
+.count-up{
+    padding: 1em;
+    text-align: center;    
+}
+
+.equal{
+    display: inline;
+    padding-left: 10px;
+}
+.counter {
+    font-family: 'Muli', sans-serif;
+    color: #00112d;
+    font-size: 4em;
+    text-align: center;
+    padding-left: 2%;
+
+}
+.unit{
+    font-family: 'Muli', sans-serif;
+    color: #00112d;
+    font-size: 3em;
+    text-align: center;
+
+    ;
+}
+
+.label-c{
+    font-family: 'Muli', sans-serif;
+    color: #00112d;
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 1%
+}
+
+.panel-body{
+    color: #00112d;
+}
+
+.grey{
+    background: #eff4fc;
+    padding: 1.5em;
+
+}
+
+.images{
+    padding: 2em;
+    padding-bottom: 0;
+  }  
+.black {
+    background: #000919; 
+    color:white;
+}
+
+.us{
+    display: inline;
+    width: auto;
+    
+
+}
+
+.insta{
+    text-align: right;
+}
+.agenda { }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+.input-group{
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+.input-group-addon{
+    color: white;
+    background-color: #1e1b34;
+    border-color: transparent;
+}
+
